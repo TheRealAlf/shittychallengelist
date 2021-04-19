@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Alf">
+<title>Shitty Challenge List</title>
+<link rel="stylesheet" media="screen and (min-device-width: 320px)"href="css/320style.css">
+<link rel="stylesheet" media="screen and (min-device-width: 760px)"href="css/760style.css">
+<link rel="stylesheet" media="screen and (min-device-width: 900px)"href="css/900style.css">
+<link rel="stylesheet" media="screen and (min-device-width: 1200px)"href="css/1200style.css">
+<link rel="icon" href="images/icon.png">
+<meta name="viewport" content="user-scalable=yes">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <li>
+        <button onclick="location.href='../index.html';">HOME</button>
+        <button onclick="location.href='index.html';">LIST</button>
+        <button onclick="location.href='legacy.html';">LEGACY</button>
+        <button class="apibtn" style="float: right;" onclick="location.href='doc.html';">DOC</button>
+        <button class="submitbtn" style="float: right;" onclick="googleForm()">SUBMIT</button>
+        <button class="submitbtn" style="float: right;" onclick="location.href='user.html';">USER</button>
+        </li>
+    </div>
+    <img class="logo" src="images/logo.png">
+
+    <!-- Not in use -->
+
+    <div id="form">
+        <button class="closebtn" onclick="close1()"><h4>&#10006;</h4></button>
+        <form class="formRecord" action="php/connect.php" method="post">
+            <h3>SUBMIT RECORD</h3>
+            <label for="dname">LEVEL NAME:</label><br>
+            <input type="text" id="dname" name="dname" placeholder="e. g. Shitty Delusion"><br><br>
+            <label for="username">YOUR NAME:</label><br>
+            <input type="text" id="username" name="username" placeholder="e. g. JustAlf"><br><br>
+            <label for="video">VIDEO PROOF:</label><br>
+            <input type="text" id="video" name="video" placeholder="e. g. https://www.youtube.com/watch?v=dQw4w9WgXcQ "><br><br><br>
+            <input class="submit" type="submit" value="SUBMIT">
+        </form>
+    </div>
+
+    <!-- -->
+
+<div class="bg2">
+
+  <div class="copied" id="copydiv"><p class="copiied">ID COPIED</p></div>
+
+    <!-- #1 -->
+    <div class="table">
+        <img class="thumb" id="thumb1" onclick="video1x1()" width="16%" height="80%"></a>
+        <a href="list/1"><p class="p1" id="level1"></p></a>
+        <p class="author" id="author1"></p>
+        <img src="images/copybtn.png" onclick="copyToClipboard1()" class="copyimage">
+     </div>
+    <!----->
+
+    <!-- #2 -->
+    <div class="table">
+        <img class="thumb" onclick="video2x1()" id="thumb2" width="16%" height="80%"></a>
+        <a href="list/2"><p class="p1" id="level2"></p></a>
+        <p class="author" id="author2"></p>
+        <img src="images/copybtn.png" onclick="copyToClipboard2()" class="copyimage">
+     </div>
+    <!----->
+
+    <!-- #3 -->
+    <div class="table">
+        <img class="thumb" onclick="video3x1()" id="thumb3" width="16%" height="80%"></a>
+        <a href="list/3"><p class="p1" id="level3"></p></a>
+        <p class="author" id="author3"></p>
+        <img src="images/copybtn.png" onclick="copyToClipboard3()" class="copyimage">
+     </div>
+    <!----->
+
+    <!-- #4 -->
+    <div class="table">
+        <img class="thumb" onclick="video4x1()" id="thumb4" width="16%" height="80%"></a>
+        <a href="list/4"><p class="p1" id="level4"></p></a>
+        <p class="author" id="author4"></p>
+        <img src="images/copybtn.png" onclick="copyToClipboard4()" class="copyimage">
+     </div>
+    <!----->
+
+    <!-- #5 -->
+    <div class="table">
+        <img class="thumb" onclick="video5x1()" id="thumb5" width="16%" height="80%"></a>
+        <a href="list/5"><p class="p1" id="level5"></p></a>
+        <p class="author" id="author5"></p>
+        <img src="images/copybtn.png" onclick="copyToClipboard5()" class="copyimage">
+     </div>
+    <!----->
+
+    <!-- #6 -->
+    <div class="table">
+        <img class="thumb" onclick="video6x1()" id="thumb6" width="16%" height="80%"></a>
+        <a href="list/6"><p class="p1" id="level6"></p></a>
+        <p class="author" id="author6"></p>
+        <img src="images/copybtn.png" onclick="copyToClipboard6()" class="copyimage">
+     </div>
+    <!----->
+
+    <!-- #7 -->
+    <div class="table">
+          <img class="thumb" onclick="video7x1()" id="thumb7" width="16%" height="80%"></a>
+        <a href="list/7"><p class="p1" id="level7"></p></a>
+        <p class="author" id="author7"></p>
+        <img src="images/copybtn.png" onclick="copyToClipboard7()" class="copyimage">
+     </div>
+    <!----->
+
+    <!-- #8 -->
+    <div class="table">
+          <img class="thumb" onclick="video8x1()" id="thumb8" width="16%" height="80%"></a>
+        <a href="list/8"><p class="p1" id="level8"></p></a>
+        <p class="author" id="author8"></p>
+        <img src="images/copybtn.png" onclick="copyToClipboard8()" class="copyimage">
+     </div>
+    <!----->
+
+    <!-- #9 -->
+    <div class="table">
+          <img class="thumb" onclick="video9x1()" id="thumb9" width="16%" height="80%"></a>
+        <a href="list/9"><p class="p1" id="level9"></p></a>
+        <p class="author" id="author9"></p>
+        <img src="images/copybtn.png" onclick="copyToClipboard9()" class="copyimage">
+     </div>
+    <!----->
+
+    <!-- #10 -->
+    <div class="table">
+          <img class="thumb" onclick="video10x1()" id="thumb10" width="16%" height="80%"></a>
+        <a href="list/10"><p class="p1" id="level10"></p></a>
+        <p class="author" id="author10"></p>
+        <img src="images/copybtn.png" onclick="copyToClipboard10()" class="copyimage">
+     </div>
+    <!----->
+
+    <!-- #11 -->
+    <div class="table">
+      <img class="thumb" onclick="video11x1()" id="thumb11" width="16%" height="80%"></a>
+    <a href="list/11"><p class="p1" id="level11"></p></a>
+    <p class="author" id="author11"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard11()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #12 -->
+    <div class="table">
+      <img class="thumb" onclick="video12x1()" id="thumb12" width="16%" height="80%"></a>
+    <a href="list/12"><p class="p1" id="level12"></p></a>
+    <p class="author" id="author12"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard12()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #13 -->
+    <div class="table">
+      <img class="thumb" onclick="video13x1()" id="thumb13" width="16%" height="80%"></a>
+    <a href="list/13"><p class="p1" id="level13"></p></a>
+    <p class="author" id="author13"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard13()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #14 -->
+    <div class="table">
+      <img class="thumb" onclick="video14x1()" id="thumb14" width="16%" height="80%"></a>
+    <a href="list/14"><p class="p1" id="level14"></p></a>
+    <p class="author" id="author14"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard14()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #15 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video15x1()" id="thumb15" width="16%" height="80%"></a>
+    <a href="list/15"><p class="p1" id="level15"></p></a>
+    <p class="author" id="author15"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard15()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #16 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video16x1()" id="thumb16" width="16%" height="80%"></a>
+    <a href="list/16"><p class="p1" id="level16"></p></a>
+    <p class="author" id="author16"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard16()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #17 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video17x1()" id="thumb17" width="16%" height="80%"></a>
+    <a href="list/17"><p class="p1" id="level17"></p></a>
+    <p class="author" id="author17"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard17()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #18 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video18x1()" id="thumb18" width="16%" height="80%"></a>
+    <a href="list/18"><p class="p1" id="level18"></p></a>
+    <p class="author" id="author18"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard18()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #19 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video19x1()" id="thumb19" width="16%" height="80%"></a>
+    <a href="list/19"><p class="p1" id="level19"></p></a>
+    <p class="author" id="author19"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard19()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #20 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video20x1()" id="thumb20" width="16%" height="80%"></a>
+    <a href="list/20"><p class="p1" id="level20"></p></a>
+    <p class="author" id="author20"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard20()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #21 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video21x1()" id="thumb21" width="16%" height="80%"></a>
+    <a href="list/21"><p class="p1" id="level21"></p></a>
+    <p class="author" id="author21"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard21()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #22 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video22x1()" id="thumb22" width="16%" height="80%"></a>
+    <a href="list/22"><p class="p1" id="level22"></p></a>
+    <p class="author" id="author22"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard22()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #23 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video23x1()" id="thumb23" width="16%" height="80%"></a>
+    <a href="list/23"><p class="p1" id="level23"></p></a>
+    <p class="author" id="author23"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard23()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #24 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video24x1()" id="thumb24" width="16%" height="80%"></a>
+    <a href="list/24"><p class="p1" id="level24"></p></a>
+    <p class="author" id="author24"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard24()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #25 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video25x1()" id="thumb25" width="16%" height="80%"></a>
+    <a href="list/25"><p class="p1" id="level25"></p></a>
+    <p class="author" id="author25"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard25()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #26 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video26x1()" id="thumb26" width="16%" height="80%"></a>
+    <a href="list/26"><p class="p1" id="level26"></p></a>
+    <p class="author" id="author26"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard26()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #27 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video27x1()" id="thumb27" width="16%" height="80%"></a>
+    <a href="list/27"><p class="p1" id="level27"></p></a>
+    <p class="author" id="author27"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard27()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #28 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video28x1()" id="thumb28" width="16%" height="80%"></a>
+    <a href="list/28"><p class="p1" id="level28"></p></a>
+    <p class="author" id="author28"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard28()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #29 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video29x1()" id="thumb29" width="16%" height="80%"></a>
+    <a href="list/29"><p class="p1" id="level29"></p></a>
+    <p class="author" id="author29"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard29()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #30 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video30x1()" id="thumb30" width="16%" height="80%"></a>
+    <a href="list/30"><p class="p1" id="level30"></p></a>
+    <p class="author" id="author30"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard30()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #31 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video31x1()" id="thumb31" width="16%" height="80%"></a>
+    <a href="list/31"><p class="p1" id="level31"></p></a>
+    <p class="author" id="author31"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard31()" class="copyimage">
+    </div>
+    <!----->
+
+    <!-- #32 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video32x1()" id="thumb32" width="16%" height="80%"></a>
+    <a href="list/32"><p class="p1" id="level32"></p></a>
+    <p class="author" id="author32"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard32()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #33 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video33x1()" id="thumb33" width="16%" height="80%"></a>
+    <a href="list/33"><p class="p1" id="level33"></p></a>
+    <p class="author" id="author33"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard33()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #34 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video34x1()" id="thumb34"" width="16%" height="80%"></a>
+    <a href="list/34"><p class="p1" id="level34"></p></a>
+    <p class="author" id="author34"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard34()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #35 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video35x1()" id="thumb35" width="16%" height="80%"></a>
+    <a href="list/35"><p class="p1" id="level35"></p></a>
+    <p class="author" id="author35"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard35()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #36 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video36x1()" id="thumb36" width="16%" height="80%"></a>
+    <a href="list/36"><p class="p1" id="level36"></p></a>
+    <p class="author" id="author36"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard36()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #37 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video37x1()" id="thumb37" width="16%" height="80%"></a>
+    <a href="list/37"><p class="p1" id="level37"></p></a>
+    <p class="author" id="author37"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard37()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #38 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video38x1()" id="thumb38" width="16%" height="80%"></a>
+    <a href="list/38"><p class="p1" id="level38"></p></a>
+    <p class="author" id="author38"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard38()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #39 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video39x1()" id="thumb39" width="16%" height="80%"></a>
+    <a href="list/39"><p class="p1" id="level39"></p></a>
+    <p class="author" id="author39"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard39()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #40 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video40x1()" id="thumb40" width="16%" height="80%"></a>
+    <a href="list/40"><p class="p1" id="level40"></p></a>
+    <p class="author" id="author40"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard40()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #41 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video41x1()" id="thumb41" width="16%" height="80%"></a>
+    <a href="list/41"><p class="p1" id="level41"></p></a>
+    <p class="author" id="author41"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard41()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #42 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video42x1()" id="thumb42" width="16%" height="80%"></a>
+    <a href="list/42"><p class="p1" id="level42"></p></a>
+    <p class="author" id="author42"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard42()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #43 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video43x1()" id="thumb43" width="16%" height="80%"></a>
+    <a href="list/43"><p class="p1" id="level43"></p></a>
+    <p class="author" id="author43"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard43()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #44 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video44x1()" id="thumb44" width="16%" height="80%"></a>
+    <a href="list/44"><p class="p1" id="level44"></p></a>
+    <p class="author" id="author44"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard44()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #45 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video45x1()" id="thumb45" width="16%" height="80%"></a>
+    <a href="list/45"><p class="p1" id="level45"></p></a>
+    <p class="author" id="author45"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard45()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #46 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video46x1()" id="thumb46" width="16%" height="80%"></a>
+    <a href="list/46"><p class="p1" id="level46"></p></a>
+    <p class="author" id="author46"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard46()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #47 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video47x1()" id="thumb47" width="16%" height="80%"></a>
+    <a href="list/47"><p class="p1" id="level47"></p></a>
+    <p class="author" id="author47"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard47()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #48 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video48x1()" id="thumb48" width="16%" height="80%"></a>
+    <a href="list/48"><p class="p1" id="level48"></p></a>
+    <p class="author" id="author48"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard48()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #49 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video49x1()" id="thumb49" width="16%" height="80%"></a>
+    <a href="list/49"><p class="p1" id="level49"></p></a>
+    <p class="author" id="author49"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard49()" class="copyimage">
+    </div>
+    <!----->
+    
+    <!-- #50 -->
+    <div class="table">
+    <a href=""target="_blank"><img class="thumb" onclick="video50x1()" id="thumb50" width="16%" height="80%"></a>
+    <a href="list/50"><p class="p1" id="level50"></p></a>
+    <p class="author" id="author50"></p>
+    <img src="images/copybtn.png" onclick="copyToClipboard50()" class="copyimage">
+    </div>
+    <!----->
+</div>
+
+<center><p class="userpoint">&copy; Alf 2021</p></center>
+
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+<script src="js/list.js"></script>
+<script src="js/main.js"></script>
+<script src="js/legacy.js"></script>
+<script src="js/single.js"></script>
+<script src="js/level.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/video.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery1.js"></script>
+<script src="js/image.js"></script>
+<script src="js/maintenance.js"></script>
+
+<script>
+  function googleForm() {
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSdWUVZAYyB9d4QoAGnuTfeQRQ3JiM3gDR0gbH6w7Jdc7cueVw/viewform')
+  }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,608 @@
+@import url('http://fonts.cdnfonts.com/css/big-john');
+@import url('http://fonts.cdnfonts.com/css/slim-joe');
+@import url('http://fonts.cdnfonts.com/css/simplifica');
+
+@font-face {
+    font-family: 'Big John';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Big John'), url('https://fonts.cdnfonts.com/s/18912/Big John.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Slim Joe';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Slim Joe'), url('https://fonts.cdnfonts.com/s/18911/Slim Joe.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Simplifica';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Simplifica'), url('https://fonts.cdnfonts.com/s/13694/SIMPLIFICA Typeface.woff') format('woff');
+}
+
+body {
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+
+.bg2 {
+	background-color:rgba(100,100, 100, 0.4);
+	width: 85%;
+	height: 10100px;
+	border: solid 1px;
+	margin: 0 auto;
+}
+
+.bg3 {
+	background-color:rgba(100,100, 100, 0.4);
+	width: 85%;
+	height: 2000px;
+	border: solid 1px;
+	margin: 0 auto;
+}
+
+.bg4 {
+	background-color:rgba(100,100, 100, 0.4);
+	width: 85%;
+	height: 2000px;
+	border: solid 1px;
+	margin: 0 auto;
+}
+
+.bg5 {
+	background-color:rgba(100,100, 100, 0.4);
+	width: 85%;
+	height: 2000px;
+	border: solid 1px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.table {
+	display: flex;
+	width: 90%;
+	height: 150px;
+	border: solid 1px;
+	background-color: #303030;
+	margin: 0 auto;
+	margin-top: 3%;
+	box-shadow: 0px 5px 20px black;
+}
+
+.table2 {
+	width: 70%;
+	height: 20%;
+	border: solid 1px;
+	background-color: #303030;
+	margin-top: 3%;
+	box-shadow: 0px 5px 20px black;
+	margin-right: 3%;
+}
+
+.tablelegacy {
+	display: flex;
+	width: 90%;
+	height: 7.5%;
+	border: solid 1px;
+	background-color: #303030;
+	margin: 0 auto;
+	margin-top: 3%;
+	box-shadow: 0px 5px 20px black;
+}
+
+.thumb {
+	margin: 15px;
+	float: left;
+	border: 1px solid;
+  width: 200px;
+  min-width: 200px;
+  transition: 500ms;
+}
+.thumb:hover {
+	opacity: 0.7;
+  cursor: pointer;
+}
+
+.logo {
+	display: block;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p1 {
+	font-size: 450%;
+	color: white;
+	width: 900px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-family: simplifica;
+  transition: 500ms;
+}
+
+.p1:hover {
+  transform: scale(1.01);
+}
+
+.author {
+	font-size: 200%;
+	color: white;
+	width: 100%;
+	margin-top: 90px;
+	margin-left: -900px;
+	font-family: simplifica;
+  text-decoration: none;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.navbar {
+	width: 99%;
+	height: 40px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+button {
+	background-color: rgba(255, 255, 255, 0.4);
+	height: 100%;
+	width: 7%;
+	border: none;
+	opacity: 0.5;
+	border-radius: 0%;
+	margin-right: 1%;
+	text-decoration: none;
+	outline: none;
+	overflow: hidden;
+    white-space: nowrap;
+	font-size: 100%;
+}
+
+button:hover {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+li {
+	display: inline;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #303030
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #555;
+  }
+
+  .apibtn {
+	  margin-right: 0px;
+	  font-size: 100%;
+  }
+
+  .submitbtn {
+	font-size: 100%;
+}
+
+  #form {
+	  position: absolute;
+	  left: 80%;
+	  width: 20%;
+	  height: 12%;
+	  border: 1px solid;
+	  top: 2%;
+	  background-color: #3467eb;
+	  background-image: linear-gradient(to bottom, #3467eb, #0796e3);	  
+	  display: none;
+  }
+
+  .formRecord {
+	  margin-left: 3%;
+	  font-family: sans-serif;
+  }
+
+  input {
+	  margin: 1% 1% 1% 1%;
+	  outline: none;
+	  border: none;
+	  border-radius: none;
+  }
+
+  input[type=radio] {
+	  border: none;
+	  border-radius: 0%;
+  }
+
+  .closebtn {
+	  width: 5%;
+	  height: 5%;
+	  position: absolute;
+	  top: 2%;
+	  margin-left: 90%;
+	  text-align: left;
+  }
+
+  h4 {
+	  position: absolute;
+	  top: -155%;
+	  left: 17%;
+  }
+
+  .submit {
+	  border: none;
+	  text-decoration: none;
+	  outline: none;
+	  border-radius: 0%;
+	  margin-right: 5%;
+	  font-family: sans-serif;
+  }
+
+  .id:hover {
+	  background-color: #303030;
+  }
+
+  .copybtn {
+	  float: right;
+	  width: 2%;
+	  height: 20%;
+	  position: relative;
+	  top: -60%;
+	  right: 2%;
+  }
+
+  .title {
+	font-size: 600%;
+	text-align: center;
+	vertical-align: middle;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	font-weight: 600;
+	font-family: simplifica;
+	text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+	width: 60%;
+  }
+
+  .ttitle {
+	list-style: none;
+	display: inline;
+	margin: 0 auto;
+	vertical-align: middle;
+	font-weight: 600;
+	font-size: 700%;
+	font-family: simplifica;
+	text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5) ;
+	width: 100%;
+  }
+
+  .subtitle {
+	  font-size: 400%;
+	  font-weight: bold;
+	  font-family: simplifica;
+	  display: inline-block;
+	  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5) ;
+	  width: 100%;
+	  margin-top: 10px;
+	  margin-bottom: 10px;
+  }
+
+  .vid {
+	display:block;
+	  width: 1280px;
+	  height: 720px;
+	  margin: 0 auto;
+	  border: 1px solid grey;
+	  margin-top: 20px;
+	  box-shadow: 0px 5px 20px black;
+  }
+
+  .records {
+    width: 70%;
+	height: 600px;
+	border: solid 1px;
+	text-align: center;
+	background-color: #303030;
+	margin: 0 auto;
+	margin-top: 3%;
+	box-shadow: 0px 5px 20px black;
+	overflow: auto;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 300%;
+    font-family: simplifica;
+    color: white;
+}
+
+.recordd {
+    font-family: sans-serif;
+    font-size: 150%;
+	color: white;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin: 0 auto;
+	background-color: #303030
+}
+
+.recordd2 {
+	font-family: sans-serif;
+    font-size: 150%;
+	color: white;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin: 0 auto;
+	background-color: #282828;
+}
+
+
+.recordd:hover {
+	color: #999;
+	cursor: pointer;
+}
+
+.recordd2:hover {
+	color: #999;
+	cursor: pointer;
+}
+
+.recordd3:hover {
+	color: #999;
+	cursor: pointer;
+}
+
+.recordd4:hover {
+	color: #999;
+	cursor: pointer;
+}
+
+audio {
+	color: #303030;
+	outline: none;
+}
+
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+	background-color: rgb(70, 70, 70);
+}
+
+.userlist {
+    width: 70%;
+	height: 300px;
+	border: solid 1px;
+	text-align: center;
+	background-color: #303030;
+	margin: 0 auto;
+	margin-top: 3%;
+	box-shadow: 0px 5px 20px black;
+	z-index: 1;
+}
+
+.userinfo {
+	position: fixed;
+	width: 25%;
+	height: auto;
+	min-height: 400px;
+	background-color: #383838;
+	z-index: 200;
+	top: 20%;
+  left: 38%;
+	box-shadow: 1px 1px 100000px black;
+	display: none;
+}
+
+.user {
+	font-family: simplifica;
+	font-size: 250%;
+	font-weight: bold;
+	margin: 0 auto;
+	padding-top: 10px;
+	z-index: 2;
+}
+
+.user:hover {
+	color: #202020;
+	cursor: pointer;
+}
+
+.usertitle {
+	width: 70%;
+	height: 300px;
+	border: solid 1px;
+	text-align: center;
+	background-color: #303030;
+	margin: 0 auto;
+	margin-top: 3%;
+	box-shadow: 0px 5px 20px black;
+	z-index: 300;
+}
+
+.username {
+	font-size: 300%;
+	color: white;
+	margin-top: 20px;
+	font-family: simplifica;
+}
+
+.recordd3 {
+    font-family: sans-serif;
+    background-color: #303030;
+    font-size: 120%;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0 auto;
+}
+
+.recordd4 {
+    font-family: sans-serif;
+    font-size: 120%;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0 auto;
+}
+
+.doctext {
+    font-family: sans-serif;
+    font-size: 130%;
+	color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.userpoint {
+    font-family: sans-serif;
+    font-size: 120%;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+
+.discord {
+	width: 21%;
+	height: 23%;
+	display: flex;
+	margin-left: 30px;
+	margin-top: 30px;
+	float: left;
+	border: 1px solid;
+	border-radius: 6px;
+}
+
+.redirect {
+	text-decoration: none;
+	color: #ffcc99;
+}
+
+.redirect:hover {
+	color: #ffe6cc;
+}
+
+/* /////////////////////////////////////////////////// */
+
+.copyimage {
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+  display: inherit;
+  transition: 500ms;
+}
+
+.copyimage:hover {
+	cursor: pointer;
+  transform: scale(1.15);
+}
+
+.doctext2 {
+    font-family: sans-serif;
+    font-size: 130%;
+	  color: white;
+	  margin-left: 10px;
+	  margin-top: 0px;
+	  display: inline;
+}
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
+}
+
+.calculator {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.copied{
+  visibility: hidden;
+  transition: 500ms;
+  position: fixed;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #282828;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 90%;
+  overflow: auto;
+  z-index: 200;
+  box-shadow: 0px 5px 20px black;
+}
+
+.copiied {
+  font-family: sans-serif;
+  color: white;
+  overflow: auto;
+  z-index: 201;
+}
+
+.fadein {
+  -moz-transition: 1s;
+  visibility: initial;
+}
+
+.fadeout {
+  -moz-transition: 1s;
+  visibility: hidden;
+}
+
+.docuser {
+    font-family: sans-serif;
+    font-size: 130%;
+	  color: white;
+	  margin-left: 10px;
+	  margin-top: 0px;
+}
+
+.maintenance {
+  text-align: center;
+  font-family: simplifica;
+  font-size: 800%;
+  margin-top: 400px;
+  color: #a98fff;
+  background-size: 100%;
+  z-index: 100;
+  text-shadow: 10px 10px 10px black;
+}
+
+.error1 {
+    text-align: center;
+  font-family: simplifica;
+    font-size: 500%;
+    margin: 0 auto;
+      color: #ffffff;
+  background-size: 100%;
+  z-index: 100;
+  text-shadow: 10px 10px 10px black;
+}
+
+.userending{
+  color: #383838;
+  height: 20px;
+}

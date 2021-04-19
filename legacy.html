@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Alf">
+<title>Shitty Challenge List</title>
+<link rel="stylesheet" media="screen and (min-device-width: 320px)"href="css/320style.css">
+<link rel="stylesheet" media="screen and (min-device-width: 760px)"href="css/760style.css">
+<link rel="stylesheet" media="screen and (min-device-width: 900px)"href="css/900style.css">
+<link rel="stylesheet" media="screen and (min-device-width: 1200px)"href="css/1200style.css">
+<link rel="icon" href="images/icon.png">
+<meta name="viewport" content="user-scalable=yes">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <li>
+        <button onclick="location.href='../index.html';">HOME</button>
+        <button onclick="location.href='index.html';">LIST</button>
+        <button class="legacybtn" onclick="location.href='legacy.html';">LEGACY</button>
+        <button class="apibtn" style="float: right;" onclick="location.href='doc.html';">DOC</button>
+        <button class="submitbtn" style="float: right;" onclick="googleForm()">SUBMIT</button>
+        <button class="submitbtn" style="float: right;" onclick="location.href='user.html';"">USER</button>
+        </li>
+    </div>
+    <center><img class="logo" src="images/logo.png"></center>
+
+    <!-- Not in use -->
+
+    <div id="form">
+        <button class="closebtn" onclick="close1()"><h4>&#10006;</h4></button>
+        <form class="formRecord" action="php/connect.php" method="post">
+            <h3>SUBMIT RECORD</h3>
+            <label for="dname">LEVEL NAME:</label><br>
+            <input type="text" id="dname" name="dname" placeholder="e. g. Shitty Delusion"><br><br>
+            <label for="username">YOUR NAME:</label><br>
+            <input type="text" id="username" name="username" placeholder="e. g. JustAlf"><br><br>
+            <label for="video">VIDEO PROOF:</label><br>
+            <input type="text" id="video" name="video" placeholder="e. g. https://www.youtube.com/watch?v=dQw4w9WgXcQ "><br><br><br>
+            <input class="submit" type="submit" value="SUBMIT">
+        </form>
+    </div>
+
+    <!-- -->
+
+<div class="bg3">
+
+    <!-- #1 -->
+    <div class="tablelegacy">
+        <img class="thumb" onclick="legacy1()" src="images/legacy1.jpg" width="16%" height="80%">
+        <a href=""><p class="p1" id="legacy1"></p></a>
+        <p class="author" id="lauthor1"></p>
+    </div>
+    <!----->
+
+    <!-- #2 -->
+    <div class="tablelegacy">
+        <img class="thumb" onclick="legacy2()" src="images/legacy2.jpg" width="16%" height="80%">
+        <a href=""><p class="p1" id="legacy2"></p></a>
+        <p class="author" id="lauthor2"></hp>
+    </div>
+    <!----->
+
+    <!-- #3 -->
+    <div class="tablelegacy">
+        <img class="thumb" onclick="legacy3()" src="images/legacy3.jpg" width="16%" height="80%">
+        <a href=""><p class="p1" id="legacy3"></p></a>
+        <p class="author" id="lauthor3"></hp>
+    </div>
+    <!----->
+
+    <!-- #4 -->
+    <div class="tablelegacy">
+        <img class="thumb" onclick="legacy4()" src="images/legacy3.jpg" width="16%" height="80%">
+        <a href=""><p class="p1" id="legacy4"></p></a>
+        <p class="author" id="lauthor4"></hp>
+    </div>
+    <!----->
+
+</div>
+
+<center><p class="userpoint">&copy; Alf 2021</p></center>
+
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+<script src="js/list.js"></script>
+<script src="js/main.js"></script>
+<script src="js/legacy.js"></script>
+<script src="js/single.js"></script>
+<script src="js/level.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/video.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/maintenance.js"></script>
+
+<script>
+  $('#legacy1').text(legacy.list[0].name); $('#lauthor1').text(legacy.list[0].author);
+  $('#legacy2').text(legacy.list[1].name); $('#lauthor2').text(legacy.list[1].author);
+  $('#legacy3').text(legacy.list[2].name); $('#lauthor3').text(legacy.list[2].author);
+  $('#legacy4').text(legacy.list[3].name); $('#lauthor4').text(legacy.list[3].author);
+    function googleForm() {
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSdWUVZAYyB9d4QoAGnuTfeQRQ3JiM3gDR0gbH6w7Jdc7cueVw/viewform')
+  }
+</script>
+</body>
+
+</html>

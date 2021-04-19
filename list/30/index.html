@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Alf">
+<title>Shitty Challenge List</title>
+<link rel="stylesheet" media="screen and (min-device-width: 320px)"href="../../css/320style.css">
+<link rel="stylesheet" media="screen and (min-device-width: 760px)"href="../../css/760style.css">
+<link rel="stylesheet" media="screen and (min-device-width: 900px)"href="../../css/900style.css">
+<link rel="stylesheet" media="screen and (min-device-width: 1200px)"href="../../css/1200style.css">
+<link rel="icon" href="../../images/icon.png">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <li>
+        <button onclick="location.href='../../../index.html';">HOME</button>
+        <button onclick="location.href='../../index.html';">LIST</button>
+        <button class="legacybtn" onclick="location.href='../../legacy.html';">LEGACY</button>
+        <button class="apibtn" style="float: right;" onclick="location.href='../../doc.html'">DOC</button>
+        <button class="submitbtn" style="float: right;" onclick="submitRecord()">SUBMIT</button>
+        <button class="submitbtn" style="float: right;" onclick="location.href='../../user.html';">USER</button>
+        </li>
+    </div>
+    <center><img class="logo" src="../../images/logo.png"></center>
+
+<div class="bg5">
+
+    <a href="../29"><p class="ttitle"><</p></a><p class="title" id="levelname"><a href="../31"><p class="ttitle"> ></a></p></p><br>
+    <p class="subtitle" id="levelauthor"></p>
+
+    <iframe class="vid" id="iframe" frameborder="0" allowfullscreen></iframe><br><br><br>
+
+    <center><h1 class="subtitle">POINTS WHEN COMPLETED: 42</h1></center><br>
+    <center><h1 class="subtitle" id="levelid"></h1></center>
+
+    <div class="records">
+        <h1 class="title2">RECORDS</h1>
+    </div>
+</div>
+
+<center><p class="userpoint">&copy; Alf 2021</p></center>
+
+<script src="../../js/main.js"></script>
+<script src="../../js/level.js"></script>
+<script src="../../js/video.js"></script>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/jquery1.js"></script>
+<script src="../../js/list.js"></script>
+<script src="../../js/user.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+  $('#levelname').text(shitty.list[29].name);
+  $('#levelauthor').text(shitty.list[29].author);
+  $('#levelid').text("ID: " + shitty.list[29].id);
+  $('iframe').attr('src', shitty.list[29].iframe);
+
+  var html = "";
+//loop through records json array
+$.each(shitty.list[29].records, function(i, vv) {
+  //if `i` value is even one class or other.. 
+  var class_name = i % 2 == 0 ? "recordd2" : "recordd"
+  //append link and user name
+  html += `<p class="${class_name}" onclick="window.open('${vv.link}')">${vv.user} | ${vv.hz}</p>
+   `
+})
+
+$(".records").append(html) //append p in div
+</script>
+
+</body>
+
+</html>
