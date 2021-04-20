@@ -997,6 +997,26 @@ const shitty = {
                     "link": "https://www.youtube.com/watch?v=SpapzTVJpXA",
                     "hz": "144hz"
                 },
+                {
+                    "user": "DarkAngelZ",
+                    "link": "https://www.youtube.com/watch?v=aqYOSUtI_Lo",
+                    "hz": "?hz"
+                },
+                {
+                    "user": "Avex",
+                    "link": "https://www.youtube.com/watch?v=ruIwVIkEAwY&feature=youtu.be",
+                    "hz": "240hz"
+                },
+                {
+                    "user": "Auryal",
+                    "link": "https://youtu.be/cLstv1Lcpi0",
+                    "hz": "225hz"
+                },
+                {
+                    "user": "domzinic",
+                    "link": "https://youtu.be/SpapzTVJpXA",
+                    "hz": "144hz"
+                },
             ],
             "name": "34 - SHITTY PENNUTOH CHALLENGE",
             "author": "FakePurel",
@@ -1023,6 +1043,11 @@ const shitty = {
                     "link": "https://www.youtube.com/watch?v=9nPkicoDa-4",
                     "hz": "165hz"
                 },
+                {
+                    "user": "DarkAngelZ",
+                    "link": "https://www.youtube.com/watch?v=HFCiIuqt98Y",
+                    "hz": "?hz"
+                },
             ],
             "name": "35 - SHITTY ALPHA DAN",
             "author": "ItzPixelation",
@@ -1038,6 +1063,41 @@ const shitty = {
                     "user": "calamar",
                     "link": "https://www.youtube.com/watch?v=BFnDAgDyiaA",
                     "hz": "165hz"
+                },
+                  {
+                    "user": "cookiegamingmcs",
+                    "link": "https://clips.twitch.tv/CorrectGrotesqueBatterySSSsss-HS28JBTPVkXimdsq",
+                    "hz": "?hz"
+                },
+                 {
+                    "user": "cosmy",
+                    "link": "https://www.youtube.com/watch?v=pYAZv8owK6w",
+                    "hz": "144hz"
+                },
+                 {
+                    "user": "FakePureL",
+                    "link": "https://www.youtube.com/watch?v=EepGbUrMReY",
+                    "hz": "144hz"
+                },
+                {
+                    "user": "calamar",
+                    "link": "https://www.youtube.com/watch?v=BFnDAgDyiaA",
+                    "hz": "165hz"
+                },
+                {
+                    "user": "LAze",
+                    "link": "https://www.youtube.com/watch?v=2fWZsmzhkUA",
+                    "hz": "?hz"
+                },
+                {
+                    "user": "LunaX",
+                    "link": "youtube.com/video/zhwrivXm3pk/edit",
+                    "hz": "?hz"
+                },
+                {
+                    "user": "iSulky",
+                    "link": "https://www.youtube.com/watch?v=sB8QCOgZfDQ&ab_channel=iSulkyOfficial",
+                    "hz": "60hz"
                 },
             ],
             "name": "36 - SHITTY VAIN",
@@ -1175,6 +1235,11 @@ const shitty = {
                     "link": "https://www.youtube.com/watch?v=GH9CT1Eh2vI",
                     "hz": "?hz"
                 },
+                {
+                    "user": "CrispyPotatoTV",
+                    "link": "https://youtu.be/DB0P_VhjIl4",
+                    "hz": "288hz"
+                },
             ],
             "name": "42 - SHITTY GEORGIA CHAMBER",
             "author": "Piesy",
@@ -1242,6 +1307,11 @@ const shitty = {
                     "link": "https://www.youtube.com/watch?v=GH9CT1Eh2vI",
                     "hz": "?hz"
                 },
+                   {
+                    "user": "Crafting",
+                    "link": "https://www.youtube.com/watch?v=LhEsjL1aHNY&ab_channel=Crafting",
+                    "hz": "?hz"
+                },
             ],
             "name": "44 - SHITTY ANSWERING ALLAH",
             "author": "TheInsanePro",
@@ -1290,6 +1360,11 @@ const shitty = {
                     "link": "https://youtu.be/CsI5gKdl9rE",
                     "hz": "?hz"
                 },
+                  {
+                    "user": "CornbreadGD",
+                    "link": "https://www.youtube.com/watch?v=2FW9AnYexts",
+                    "hz": "?hz"
+                },
             ],
             "name": "47 - SHITTY GLOOM",
             "author": "PotatoSavage55",
@@ -1326,6 +1401,31 @@ const shitty = {
                     "link": "https://www.youtube.com/watch?v=UhhdWsOptvM",
                     "hz": "165hz"
                 },
+                {
+                    "user": "Charlielance",
+                    "link": "https://www.youtube.com/watch?v=dZZ_mT1DOSk",
+                    "hz": "?hz"
+                },
+                 {
+                    "user": "LeoHDM",
+                    "link": "https://www.youtube.com/watch?v=LznEqx4niD8",
+                    "hz": "?hz"
+                },
+                  {
+                    "user": "TravelChimp",
+                    "link": "https://youtu.be/c1LNWe5TH60",
+                    "hz": "?hz"
+                },
+                 {
+                    "user": "Auryal",
+                    "link": "https://www.youtube.com/watch?v=AoPHwl1i8DI",
+                    "hz": "300hz"
+                },
+                {
+                    "user": "logical",
+                    "link": "https://www.youtube.com/watch?v=QXRIQRyxgUg",
+                    "hz": "120hz"
+                },
             ],
             "name": "48 - SHITTY CCC",
             "author": "ParadigmGMD",
@@ -1356,6 +1456,11 @@ const shitty = {
                     "user": "calamar",
                     "link": "https://www.youtube.com/watch?v=hrn0-UrLyiA",
                     "hz": "165hz"
+                },
+                  {
+                    "user": "Erocile",
+                    "link": "https://youtu.be/y1SX3nLJGYU",
+                    "hz": "?hz"
                 },
             ],
             "name": "49 - SHITTY HADES HELL",

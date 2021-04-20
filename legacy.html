@@ -23,7 +23,7 @@
         <button onclick="location.href='index.html';">LIST</button>
         <button class="legacybtn" onclick="location.href='legacy.html';">LEGACY</button>
         <button class="apibtn" style="float: right;" onclick="location.href='doc.html';">DOC</button>
-        <button class="submitbtn" style="float: right;" onclick="googleForm()">SUBMIT</button>
+        <button class="submitbtn" style="float: right;" onclick="submitRecord()">SUBMIT</button>
         <button class="submitbtn" style="float: right;" onclick="location.href='user.html';"">USER</button>
         </li>
     </div>
@@ -36,11 +36,11 @@
         <form class="formRecord" action="php/connect.php" method="post">
             <h3>SUBMIT RECORD</h3>
             <label for="dname">LEVEL NAME:</label><br>
-            <input type="text" id="dname" name="dname" placeholder="e. g. Shitty Delusion"><br><br>
+            <input type="text" id="LEVELNAME" name="LEVELNAME" placeholder="e. g. Shitty Delusion"><br><br>
             <label for="username">YOUR NAME:</label><br>
-            <input type="text" id="username" name="username" placeholder="e. g. JustAlf"><br><br>
+            <input type="text" id="USERNAME" name="USERNAME" placeholder="e. g. JustAlf"><br><br>
             <label for="video">VIDEO PROOF:</label><br>
-            <input type="text" id="video" name="video" placeholder="e. g. https://www.youtube.com/watch?v=dQw4w9WgXcQ "><br><br><br>
+            <input type="text" id="VIDEO" name="VIDEO" placeholder="e. g. https://www.youtube.com/watch?v=dQw4w9WgXcQ "><br><br><br>
             <input class="submit" type="submit" value="SUBMIT">
         </form>
     </div>
